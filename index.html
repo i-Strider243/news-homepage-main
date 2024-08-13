@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(0, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="flex">
+    <div class="logo"><img src="./assets/images/logo.svg" alt=""></div>
+    <!-- Menu Button -->
+    <label id="menu-btn" class="flex">
+      <input type="checkbox" id="menu-checker">
+      <img src="./assets/images/icon-menu.svg" alt="menu" srcset="">
+    </label>
+    <!-- Menu Items -->
+    <ul class="menu-items flex">
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+    </ul>
+  </nav>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-img">
+        <picture>
+          <source srcset="./assets/images/image-web-3-desktop.jpg" media="(min-width: 768px)">
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="main hero-image">
+        </picture>
+      </div>
+      <div class="hero-text">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+          <button type="button">Read more</button>
+      </div>
+    </section>
+    <!-- NEW ITEMS SECTION -->
+    <section class="new-items">
+      <div><h2>New</h2></div>
+      <div class="new-items-container">
+        <div>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </section>
+    <!-- RELATED ITEMS SECTION -->
+    <section class="related-items flex">
+      <div class="related-item flex">
+        <div class="related-item-img"><img src="./assets/images/image-retro-pcs.jpg" alt=""></div>
+        <div class="related-item-content">
+          <span>01</span>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="related-item flex">
+        <div class="related-item-img"><img src="./assets/images/image-top-laptops.jpg" alt=""></div>
+        <div class="related-item-content">
+          <span>02</span>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="related-item flex">
+        <div class="related-item-img"><img src="./assets/images/image-gaming-growth.jpg" alt=""></div>
+        <div class="related-item-content">
+          <span>03</span>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Javascript file -->
+  <script src="./script.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/i-Strider243" target="_blank">Simon Gabriel</a>.
+  </div>
+</body>
+</html>
