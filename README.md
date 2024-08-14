@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](screenshots/Desktop-view_13-8-2024.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-using-css-grid-and-vanilla-javascript-m1DglFKxGn)
+- [Live Site URL](https://i-strider243.github.io/news-homepage-main/)
 
 ## My process
 
